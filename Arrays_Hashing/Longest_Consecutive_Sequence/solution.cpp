@@ -1,17 +1,20 @@
 class Solution {
-    public:
-        int longestConsecutive(vector<int>& nums) {
-            unordered_map<int,int> m ; 
-            int rs = 0 ; 
-            for( int i : nums ){
-                if( !m[i] ){
-                    int len = m[i-1] + m[i+1] +1 ; 
-                    m[i] = len ; 
-                    m[ i - m[i-1] ] = len ; 
-                    m[ i + m[i+1] ] = len ; 
-                    rs = max( rs , len ) ; 
-                } 
+public:
+    int longestConsecutive(vector<int>& nums) {
+        unordered_set<int> numSet(nums.begin(), nums.end());
+        int longest = 0;
+
+        for (int n : numSet) {
+            // Ne commence à compter que si c'est le début d'une séquence
+            if (numSet.find(n - 1) == numSet.end()) {
+                int length = 1;
+                while (numSet.find(n + length) != numSet.end()) {
+                    length++;
+                }
+                longest = max(longest, length);
             }
-            return rs ; 
         }
-    };
+
+        return longest;
+    }
+};
