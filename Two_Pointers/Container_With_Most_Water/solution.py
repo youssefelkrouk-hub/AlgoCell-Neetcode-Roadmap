@@ -12,7 +12,7 @@ class Solution:
             shorter = min(height[left], height[right])
             max_area = max(max_area, width * shorter)
 
-            # Move the pointer at the shorter line inward
+            # Move the pointer at the shorter line inward , beacause it's the only case where the area can be larger then the current
             if height[left] < height[right]:
                 left += 1
             else:
