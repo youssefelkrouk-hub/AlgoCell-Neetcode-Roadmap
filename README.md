@@ -45,6 +45,7 @@ Below is a categorized table of my NeetCode solutions in **Java**, **Python**, a
 | 5   | Daily Temperatures | [Java](./Stack/Daily_Temperatures/Solution.java)              | [Python](./Stack/Daily_Temperatures/solution.py)             | [C++](./Stack/Daily_Temperatures/solution.cpp)            |
 | 6   | Car Fleet | [Java](./Stack/Car_Fleet/Solution.java)              | [Python](./Stack/Car_Fleet/solution.py)             | [C++](./Stack/Car_Fleet/solution.cpp)            |
 | 7   | Largest Rectangle in Histogram | [Java](./Stack/Largest_Rectangle_in_Histogram//Solution.java)              | [Python](./Stack/Largest_Rectangle_in_Histogram//solution.py)             | [C++](./Stack/Largest_Rectangle_in_Histogram//solution.cpp)            |
+| 8   | Next Greater Element I | [Java](./Stack/Next_Greater_Element_I/Solution.java)              | [Python](./Stack/Next_Greater_Element_I/solution.py)             | [C++](./Stack/Next_Greater_Element_I/solution.cpp)            |            |
 
 
 
