@@ -55,3 +55,22 @@ def nse(nums):
 print("\n")
 nums_2=[1,3,4,2]
 print(nse(nums_2)) # -->  [-1,2,2,-1] , time complexity is 
+
+
+
+
+# Another problem if we want to retur a hash map , that map every element in nums2 into their next greater element 
+
+def nge_map(nums):
+    hash_map,stack={},[]
+    n=len(nums)
+    for i in range(n-1,-1,-1):
+        while stack and stack[-1]<=nums[i]:
+            stack.pop()
+        hash_map[nums[i]]=-1 if  not stack else stack[-1]
+        stack.append(nums[i])
+
+    return hash_map
+
+L=[1,3,4,2]
+print(nge_map(L))
