@@ -33,7 +33,6 @@ Below is a categorized table of my NeetCode solutions in **Java**, **Python**, a
 | 4   | Container With Most Water  | [Java](./Two_Pointers/Container_With_Most_Water/Solution.java)              | [Python](./Two_Pointers/Container_With_Most_Water/solution.py)             | [C++](./Two_Pointers/Container_With_Most_Water/solution.cpp)            |
 | 5   | Trapping Rain Water  | [Java](./Two_Pointers/Trapping_Rain_Water/Solution.java)              | [Python](./Two_Pointers/Trapping_Rain_Water/solution.py)             | [C++](./Two_Pointers/Trapping_Rain_Water/solution.cpp)            |
 
-
 ### 📚 Stack 
 
 | #   | Problem Name         | Java Solution                                                         | Python Solution                                                        | C++ Solution                                                       |
@@ -45,7 +44,7 @@ Below is a categorized table of my NeetCode solutions in **Java**, **Python**, a
 | 5   | Daily Temperatures | [Java](./Stack/Daily_Temperatures/Solution.java)              | [Python](./Stack/Daily_Temperatures/solution.py)             | [C++](./Stack/Daily_Temperatures/solution.cpp)            |
 | 6   | Car Fleet | [Java](./Stack/Car_Fleet/Solution.java)              | [Python](./Stack/Car_Fleet/solution.py)             | [C++](./Stack/Car_Fleet/solution.cpp)            |
 | 7   | Largest Rectangle in Histogram | [Java](./Stack/Largest_Rectangle_in_Histogram//Solution.java)              | [Python](./Stack/Largest_Rectangle_in_Histogram//solution.py)             | [C++](./Stack/Largest_Rectangle_in_Histogram//solution.cpp)            |
-| 8   | Next Greater Element I | [Java](./Stack/Next_Greater_Element_I/Solution.java)              | [Python](./Stack/Next_Greater_Element_I/solution.py)             | [C++](./Stack/Next_Greater_Element_I/solution.cpp)            |            |
+| 8   | Next Greater Element I | [Java](./Stack/Next%20Greater%20Element%20I/Solution.java)              | [Python](./Stack/Next%20Greater%20Element%20I/solution.py)             | [C++](./Stack/Next%20Greater%20Element%20I/solution.cpp)            |         |            |
 
 
 
