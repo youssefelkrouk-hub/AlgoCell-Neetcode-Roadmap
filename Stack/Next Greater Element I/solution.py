@@ -4,17 +4,11 @@
 # Space: O(n) for the stack and for the list  
 class Solution(object):
     def nextGreaterElement(self, nums1, nums2):
-        numsIndex1={n:i for i,n in enumerate(nums1)}
-        res=[-1]*(len(nums1))
-        stack=[]
-        for i in range(len(nums2)):
-            curr=nums2[i]
-            while stack and curr>stack[-1]:
-                val=stack.pop()
-                idx=numsIndex1[val]
-                res[idx]=curr
-            if curr in numsIndex1:
-                stack.append(curr)
-        return res
-        
+        hash_map,stack={},[]
+        for i in range(len(nums2)-1,-1,-1):
+            while stack and stack[-1]<=nums2[i]:
+                stack.pop()
+            hash_map[nums2[i]]=-1 if not stack else stack[-1]
+            stack.append(nums2[i])
+        return [hash_map[num] for num in nums1] 
         
