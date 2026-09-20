@@ -15,4 +15,3 @@ class Solution(object):
             return l 
         else :
             return -1  
-        
