@@ -59,7 +59,7 @@ Below is a categorized table of my NeetCode solutions in **Java**, **Python**, a
 | 5   | Search in a Rotated Sorted Array | [Java](./Binary_Search/Search_in_Rotated_Sorted_Array/Solution.java)              | [Python](./Binary_Search/Search_in_Rotated_Sorted_Array/solution.py)             | [C++](./Binary_Search/Search_in_Rotated_Sorted_Array/solution.cpp)            |
 | 6   | Time Based key-Value Store | [Java](./Binary_Search/Time_Based_Key-Value_Store/Solution.java)              | [Python](./Binary_Search/Time_Based_Key-Value_Store/solution.py)             | [C++](./Binary_Search/Time_Based_Key-Value_Store/solution.cpp)            |
 | 7   | Median of Two Sorted Arrays | [Java](./Binary_Search/Median_of_Two_Sorted_Arrays/Solution.java)              | [Python](./Binary_Search/Median_of_Two_Sorted_Arrays/solution.py)             | [C++](./Binary_Search/Median_of_Two_Sorted_Arrays/solution.cpp)            |
-| 8   | Guess Number Higher or Lower | [Java](./Binary_Search/Guess_Number/Solution.java)              | [Python](./Binary_Search/Guess_Number/solution.py)             | [C++](./Binary_Search/Guess_Number/solution.cpp)            |           |
+| 8   | Guess Number Higher or Lower | [Java](./Binary_Search/Guess%20Number/Solution.java)              | [Python](./Binary_Search/Guess%20Number/solution.py)             | [C++](./Binary_Search/Guess%20Number/solution.cpp)            |           |
 
 
 ###  ⚪ → ⚪ → ⚪ Linked List 
