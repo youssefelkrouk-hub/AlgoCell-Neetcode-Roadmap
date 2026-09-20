@@ -58,19 +58,8 @@ Below is a categorized table of my NeetCode solutions in **Java**, **Python**, a
 | 4   | Minimum in Rotated Sorted Array | [Java](./Binary_Search/Minimum_in_Rotated_Sorted_Array/Solution.java)              | [Python](./Binary_Search/Minimum_in_Rotated_Sorted_Array/solution.py)             | [C++](./Binary_Search/Minimum_in_Rotated_Sorted_Array/solution.cpp)            |
 | 5   | Search in a Rotated Sorted Array | [Java](./Binary_Search/Search_in_Rotated_Sorted_Array/Solution.java)              | [Python](./Binary_Search/Search_in_Rotated_Sorted_Array/solution.py)             | [C++](./Binary_Search/Search_in_Rotated_Sorted_Array/solution.cpp)            |
 | 6   | Time Based key-Value Store | [Java](./Binary_Search/Time_Based_Key-Value_Store/Solution.java)              | [Python](./Binary_Search/Time_Based_Key-Value_Store/solution.py)             | [C++](./Binary_Search/Time_Based_Key-Value_Store/solution.cpp)            |
-| 7   | Median of Two Two Sorted Arrays | [Java](./Binary_Search/Median_of_Two_Sorted_Arrays/Solution.java)              | [Python](./Binary_Search/Median_of_Two_Sorted_Arrays/solution.py)             | [C++](./Binary_Search/Median_of_Two_Sorted_Arrays/solution.cpp)            |
-
-
-### 🪟 Sliding Window 
-
-| #   | Problem Name         | Java Solution                                                         | Python Solution                                                        | C++ Solution                                                       |
-|-----|----------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------|
-| 1   | Best Time to Buy and Sell Stock | [Java](./Sliding_Window/Best_Time_to_Buy_and_Sell_Stock/Solution.java)              | [Python](./Sliding_Window/Best_Time_to_Buy_and_Sell_Stock/solution.py)             | [C++](./Sliding_Window/Best_Time_to_Buy_and_Sell_Stock/solution.cpp)            |
-| 2   | Longest Substring Without Repeating Characters | [Java](./Sliding_Window/Longest_Substring_Without_Repeating_Characters/Solution.java)              | [Python](./Sliding_Window/Longest_Substring_Without_Repeating_Characters/solution.py)             | [C++](./Sliding_Window/Longest_Substring_Without_Repeating_Characters/solution.cpp)            |
-| 3   | Longest Repeating Character Replacement | [Java](./Sliding_Window/Longest_Repeating_Character_Replacement/Solution.java)              | [Python](./Sliding_Window/Longest_Repeating_Character_Replacement/solution.py)             | [C++](./Sliding_Window/Longest_Repeating_Character_Replacement/solution.cpp)            |
-| 4   | Permutation in String | [Java](./Sliding_Window/Permutation_in_String/Solution.java)              | [Python](./Sliding_Window/Permutation_in_String/solution.py)             | [C++](./Sliding_Window/Permutation_in_String/solution.cpp)            |
-| 5   | Minimum Window Substring | [Java](./Sliding_Window/Minimum_Window_Substring/Solution.java)              | [Python](./Sliding_Window/Minimum_Window_Substring/solution.py)             | [C++](./Sliding_Window/Minimum_Window_Substring/solution.cpp)            |
-| 6   | Sliding Window Maximum | [Java](./Sliding_Window/Sliding_Window_Maximum/Solution.java)              | [Python](./Sliding_Window/Sliding_Window_Maximum/solution.py)             | [C++](./Sliding_Window/Sliding_Window_Maximum/solution.cpp)            |
+| 7   | Median of Two Sorted Arrays | [Java](./Binary_Search/Median_of_Two_Sorted_Arrays/Solution.java)              | [Python](./Binary_Search/Median_of_Two_Sorted_Arrays/solution.py)             | [C++](./Binary_Search/Median_of_Two_Sorted_Arrays/solution.cpp)            |
+| 8   | Guess Number Higher or Lower | [Java](./Binary_Search/Guess_Number/Solution.java)              | [Python](./Binary_Search/Guess_Number/solution.py)             | [C++](./Binary_Search/Guess_Number/solution.cpp)            |           |
 
 
 ###  ⚪ → ⚪ → ⚪ Linked List 
