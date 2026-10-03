@@ -1,0 +1,12 @@
+we cans solve this problem by using tow pointers technique, but time complexity would be O(n)
+the second great idea is once the array is sorted we can use a binary search instead of using tow pointers
+if we suppose that len(array)=n
+we intialize , left=0, right=n-1
+while left<=right : we explore  the middle index ,
+if array[middle]== target , we return middle
+elif array[middle]>target: then we should explore the left part of the array , that's why we assign mid-1 to the right pointer
+else : the same thing : we should explore the  right part , then  left=mid+1
+
+but the question if we didn't find the target in the array?:
+
+
