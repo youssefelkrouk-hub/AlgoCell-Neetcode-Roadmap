@@ -1,0 +1,4 @@
+--> The idea is a speed difference: fast moves two nodes per step while slow moves one. 
+Both start at the same place, 
+so when fast has covered the whole list, 
+slow has covered exactly half of it.so it will point exactly on the midle of the linked list 
