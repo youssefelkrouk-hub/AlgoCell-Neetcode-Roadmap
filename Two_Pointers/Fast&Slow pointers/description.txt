@@ -1,0 +1,57 @@
+FIND THE DUPLICATE NUMBER
+
+
+
+The Problem:
+
+You are given an array of integers containing n+1 elements. 
+
+Each integer in the array is between 1 and n (inclusive). 
+
+According to the Pigeonhole Principle, because there are $n+1$ items but only $n$ possible values, at least one number must appear more than once.
+
+Your task is to find this duplicate number. 
+
+Strict constraints often apply: you cannot modify the original array, and you must use only $O(1)$ extra space.
+
+
+
+The Solution Pattern: Fast and Slow Pointers (Floyd's Cycle Detection)
+
+
+
+To solve this efficiently, we treat the array as a linked list:
+
+- The indices of the array act as the "nodes".
+
+- The value at each index acts as the "next" pointer (i.e., it tells you which index to go to next).
+
+Because there is a duplicate number, two different indices will point to the exact same value. This creates a cycle in our conceptual linked list. 
+
+
+
+How the Algorithm Works:
+
+
+
+1. Phase 1: Detecting the Cycle (The Intersection)
+
+   - We initialize two pointers, "slow" (Tortoise) and "fast" (Hare), both starting at index 0.
+
+   - We move "slow" one step at a time: slow = array[slow].
+
+   - We move "fast" two steps at a time: fast = array[array[fast]].
+
+   - Because a cycle exists, the fast pointer will loop around and eventually catch up to the slow pointer. They will meet at some intersection point inside the cycle.
+
+
+
+2. Phase 2: Finding the Duplicate (The Cycle Entrance)
+
+   - Once they meet, we pause. We leave the "fast" pointer where it is, but we reset the "slow" pointer back to the very beginning (index 0).
+
+   - Now, we move both pointers at the EXACT SAME SPEED (one step at a time).
+
+   - The mathematical properties of this traversal guarantee that the exact spot where they meet again will be the entrance to the cycle.
+
+   - The entrance to the cycle is the duplicate number!
