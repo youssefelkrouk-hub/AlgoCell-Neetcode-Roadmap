@@ -1,0 +1,31 @@
+LeetCode 142: Linked List Cycle II - Problem Description
+
+
+
+THE CORE OBJECTIVE
+
+You are given the `head` of a singly linked list. Your task is to determine if the list contains a cycle and, if it does, return the EXACT NODE where the cycle begins. If the list has an end (no cycle), you must return `None` (or null).
+
+
+
+WHAT IS A CYCLE?
+
+A cycle exists in a linked list if the `next` pointer of a node points back to a previously visited node in the chain. This creates an infinite loop, meaning you can never reach a `None` value by continually following the `next` pointers.
+
+
+
+THE CONSTRAINTS (THE REAL CHALLENGE)
+
+1. No modifications: You are not allowed to change the structure or the values of the linked list.
+
+2. O(1) Memory Limit: You could easily solve this by adding every visited node's memory address into a Hash Set (which takes O(n) memory) and returning the first duplicate you see. However, the strict algorithmic challenge is to find the start of the loop using only constant extra space. 
+
+
+
+THE EXPECTED SOLUTION STRATEGY
+
+Because of the O(1) memory constraint, this problem is designed to be solved using Floyd's Cycle Detection Algorithm (the Tortoise and Hare approach). It requires a two-phase mathematical approach:
+
+- Phase 1: Use a slow pointer (1 step) and a fast pointer (2 steps) to detect if a cycle exists. If they intersect, a cycle is present.
+
+- Phase 2: Reset one pointer to the head of the list, keep the other at the intersection point, and move both at a speed of exactly 1 step at a time. The node where they collide again is mathematically guaranteed to be the start of the cycle.
