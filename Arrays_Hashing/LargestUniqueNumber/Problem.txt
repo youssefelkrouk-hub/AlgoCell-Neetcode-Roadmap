@@ -1,0 +1,17 @@
+LeetCode 1133: Largest Unique Number
+
+
+
+Problem Summary:
+
+Given an integer array `nums`, return the largest integer that appears only once. If no integer occurs once, return -1.
+
+
+
+Example:
+
+Input: nums = [5, 7, 3, 9, 4, 9, 8, 3, 1]
+
+Output: 8
+
+Explanation: 9 is the largest number, but it appears twice. 8 is the largest number that appears only once.
