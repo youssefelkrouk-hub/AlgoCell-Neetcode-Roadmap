@@ -19,10 +19,10 @@ def dfs(tree,stack):
     while len(stack)>0:
         node=stack.pop()
         if node is not None:
-            print(node)
+            print(node.value)
             stack.append(node.right)
             stack.append(node.left)
 
 mytree=Node('A',Node('B',Node('D'),Node('E')),Node('C',Node('F'),Node('G')))
 
-dfs_recursive(mytree)
+dfs(mytree,[])
